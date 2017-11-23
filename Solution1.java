@@ -19,8 +19,8 @@ public class Solution2 {
 		Float price = 0.0f;
 		
 		while (true) {
-			System.out.println("enter ch");
-			System.out.println("1.insert 2.update 3.delete 4.select 5.search 6.number.of.items 7.exit");
+			System.out.println("Enter ch value:");
+			System.out.println("1.insert 2.update 3.delete 4.select 5.search 6.numberOfItems 7.exit");
 			int ch= Integer.valueOf(bf.readLine());
 			session.beginTransaction();
 			switch (ch) {
@@ -44,14 +44,14 @@ public class Solution2 {
 			}
 			case 2:{
 				item.setId(1);
-				item.setName("2222");
-				item.setQty(324);
+				item.setName("karna");
+				item.setQty(19);
 				session.update(item);
 				System.out.println("updated");
 				break;
 				}
 			case 3:{
-				item.setId(1);
+				item.setId(2);
 				session.delete(item);
 				System.out.println("deleted");
 				break;
