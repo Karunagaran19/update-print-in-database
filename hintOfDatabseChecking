@@ -1,0 +1,13 @@
+Open Wamp/Xamp
+
+enter key press
+
+show databses;
+
+use sample;
+
+IF SAMPLE DATABSAE NOT EXITS ,create sample database;
+
+show tables;
+
+AFTER USING NORMALY!!!!!!!!!
